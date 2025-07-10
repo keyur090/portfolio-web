@@ -28,12 +28,14 @@ import download from "./download.png"
 import upArrow from "./upArrow.png"
 import logofooter from "./hoobank.svg"
 import geminiclone from "./geminiclone.png"
+import nextjs from "./nextjs.png"
 
 export {
   link,
   geminiclone,
   logofooter,
   upArrow,
+  nextjs,
   download,
   skype,
   phn,

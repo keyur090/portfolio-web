@@ -1,7 +1,7 @@
 import { motion } from "framer-motion";
 import styles from "../style";
-import { experience } from "../constants";
-import { BsPatchCheckFill } from "react-icons/bs";
+
+import { techSkills } from "../constants";
 
 const Clients = () => (
   <section
@@ -15,28 +15,23 @@ const Clients = () => (
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 1.5, delay: 0.5 }}
       >
-        Skills
+        Tech Skills
       </motion.h1>
     </div>
 
-    <div className="grid grid-cols-1 md:grid-cols-2 gap-x-16 gap-y-6">
-      {experience.map((exp, index) =>
-        exp.data.map((list, idx) => (
-          <motion.div
-            key={`${index}-${idx}`}
-            className="flex items-center gap-3"
-            initial={{ opacity: 0, y: 50 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ duration: 1.5, delay: 0.2 * idx }}
-          >
-            <BsPatchCheckFill className="text-[#7fcdec] text-xl" />
-            <div>
-              <h3 className="font-semibold text-lg">{list.skill}</h3>
-              <p className="text-gray-400">{list.level}</p>
-            </div>
-          </motion.div>
-        ))
-      )}
+    <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-5 gap-9 place-items-center">
+      {techSkills.map((skill, index) => (
+        <motion.div
+          key={index}
+          className="flex flex-col items-center text-center"
+          initial={{ opacity: 0, y: 30 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.5, delay: 0.1 * index }}
+        >
+          <img src={skill.icon} alt={skill.name} className="w-12 h-12 mb-2" />
+          <span className="text-sm font-medium">{skill.name}</span>
+        </motion.div>
+      ))}
     </div>
   </section>
 );

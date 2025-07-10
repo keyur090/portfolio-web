@@ -10,6 +10,7 @@ import {
   skype,
   mail,
   phone,
+  nextjs,
 } from "../assets";
 
 export const navLinks = [
@@ -113,44 +114,49 @@ export const footerLinks = [
   },
 ];
 
-export const experience = [
+export const techSkills = [
   {
-    data: [
-      {
-        skill: "React Js",
-        level: "Experienced",
-      },
-      {
-        skill: "Next Js",
-        level: "Intermediate",
-      },
-      {
-        skill: "JavaScript",
-        level: "Experienced",
-      },
-      {
-        skill: "TypeScript",
-        level: "Experienced",
-      },
-      {
-        skill: "Tailwind",
-        level: "Experienced",
-      },
-      {
-        skill: "Html | Css",
-        level: "Experienced",
-      },
-      {
-        skill: "Firebase",
-        level: "Intermediate",
-      },
-      {
-        skill: "Git",
-        level: "Intermediate",
-      },
-    ],
+    name: "HTML",
+    icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg",
+  },
+  {
+    name: "CSS",
+    icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg",
+  },
+  {
+    name: "Bootstrap",
+    icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original.svg",
+  },
+  {
+    name: "Tailwind CSS",
+    icon: "https://www.vectorlogo.zone/logos/tailwindcss/tailwindcss-icon.svg",
+  },
+  {
+    name: "JavaScript",
+    icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg",
+  },
+  {
+    name: "TypeScript",
+    icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg",
+  },
+  {
+    name: "React Js",
+    icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg",
+  },
+    {
+    name: "Next Js",
+    icon: nextjs,
+  },
+  {
+    name: "GitHub",
+    icon: github,
+  },
+  {
+    name: "Firebase",
+    icon: "https://cdn.jsdelivr.net/gh/devicons/devicon/icons/firebase/firebase-original.svg",
   },
 ];
+
 
 export const socialMedia = [
   {
