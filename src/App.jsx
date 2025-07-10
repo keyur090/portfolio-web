@@ -1,5 +1,16 @@
 import styles from "./style";
-import { Billing, Business, CardDeal, Clients, CTA, Footer, Navbar, Stats, Testimonials, Hero } from "./components";
+import {
+  Billing,
+  Business,
+  CardDeal,
+  Clients,
+  CTA,
+  Footer,
+  Navbar,
+  Stats,
+  Testimonials,
+  Hero,
+} from "./components";
 import ScrollToTop from "./components/ScrollToTop";
 import Gemini from "./components/Gemini";
 
@@ -16,7 +27,7 @@ const App = () => (
         <Hero />
       </div>
     </div>
-    
+
     <div className={`bg-primary ${styles.paddingX} ${styles.flexCenter}`}>
       <div className={`${styles.boxWidth}`}>
         <Stats />
@@ -24,11 +35,11 @@ const App = () => (
         <Clients />
         <Billing />
         <CardDeal />
-        <Gemini/>
+        <Gemini />
         <Testimonials />
         <CTA />
         <Footer />
-        <ScrollToTop/>
+        <ScrollToTop />
       </div>
     </div>
   </div>
