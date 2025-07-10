@@ -76,7 +76,7 @@ export const stats = [
   {
     id: "stats-1",
     title: "Year of experience",
-    value: "04+",
+    value: "01+",
   },
   {
     id: "stats-2",
@@ -86,7 +86,7 @@ export const stats = [
   {
     id: "stats-3",
     title: "Happy Clients",
-    value: "05+",
+    value: "00",
   },
 ];
 
@@ -117,19 +117,19 @@ export const experience = [
   {
     data: [
       {
-        skill: "HTML",
+        skill: "React Js",
         level: "Experienced",
       },
       {
-        skill: "CSS",
-        level: "Experienced",
-      },
-      {
-        skill: "C++",
-        level: "Experienced",
+        skill: "Next Js",
+        level: "Intermediate",
       },
       {
         skill: "JavaScript",
+        level: "Experienced",
+      },
+      {
+        skill: "TypeScript",
         level: "Experienced",
       },
       {
@@ -137,15 +137,15 @@ export const experience = [
         level: "Experienced",
       },
       {
-        skill: "Bootstrap",
+        skill: "Html | Css",
         level: "Experienced",
       },
       {
-        skill: "React",
-        level: "Experienced",
+        skill: "Firebase",
+        level: "Intermediate",
       },
       {
-        skill: "Typescript",
+        skill: "Git",
         level: "Intermediate",
       },
     ],

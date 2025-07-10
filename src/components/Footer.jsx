@@ -71,7 +71,7 @@ const Footer = () => (
       animate={{ opacity: 1 }}
       transition={{ duration: 1 }}
     >
-      <p className="font-poppins font-normal text-center text-[18px] leading-[27px] text-white">
+      <p className="font-poppins font-normal text-center text-[18px] leading-[27px] text-neutral-400">
         Copyright © 2024 Keyur Vaghasiya. All Rights Reserved.
       </p>
 

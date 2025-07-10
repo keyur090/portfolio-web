@@ -28,7 +28,7 @@ const Hero = () => {
             animate={{ opacity: 1, y: 0 }}
             transition={{ duration: 1.5 }}
           >
-            Frontend <br className="sm:block hidden" />{" "}
+            React Js <br className="sm:block hidden" />{" "}
             <span className="text-gradient">Developer</span>{" "}
           </motion.h1>
           <div className="ss:flex hidden md:mr-4 mr-0">
