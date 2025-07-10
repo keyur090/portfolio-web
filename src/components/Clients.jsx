@@ -6,7 +6,7 @@ import { techSkills } from "../constants";
 const Clients = () => (
   <section
     id="skills"
-    className="my-10 border border-gray-600 text-white rounded-xl p-8 mx-auto max-w-5xl"
+    className="my-10 border border-gray-600 text-white rounded-xl p-8 mx-auto max-w-4xl"
   >
     <div className="mb-8 text-center">
       <motion.h1
@@ -19,7 +19,7 @@ const Clients = () => (
       </motion.h1>
     </div>
 
-    <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-5 gap-9 place-items-center">
+    <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-5 gap-16 place-items-center">
       {techSkills.map((skill, index) => (
         <motion.div
           key={index}

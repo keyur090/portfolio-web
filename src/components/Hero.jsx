@@ -1,7 +1,6 @@
-
 import { motion } from "framer-motion";
 import styles from "../style";
-import { discount, headerImg } from "../assets";
+import { discount,headerImage } from "../assets";
 import GetStarted from "./GetStarted";
 
 const Hero = () => {
@@ -16,8 +15,8 @@ const Hero = () => {
         >
           <img src={discount} alt="discount" className="w-[32px] h-[32px]" />
           <p className={`${styles.paragraph} ml-2`}>
-            <span className="text-white">Hello There! </span> I'm{" "}
-            <span className="text-white"> Keyur</span> Vaghasiya
+            <span className="text-white">Hello There!</span> I'm{" "}
+            <span className="text-white">Keyur</span> Vaghasiya
           </p>
         </motion.div>
 
@@ -29,8 +28,9 @@ const Hero = () => {
             transition={{ duration: 1.5 }}
           >
             React Js <br className="sm:block hidden" />{" "}
-            <span className="text-gradient">Developer</span>{" "}
+            <span className="text-gradient">Developer</span>
           </motion.h1>
+
           <div className="ss:flex hidden md:mr-4 mr-0">
             <GetStarted />
           </div>
@@ -56,9 +56,9 @@ const Hero = () => {
         transition={{ duration: 1.5 }}
       >
         <img
-          src={headerImg}
-          alt="billing"
-          className="w-[100%] h-[100%] relative z-[5] rounded-full border-b-2 border-t-2 border-cyan-400"
+          src={headerImage}
+          alt=""
+          className="w-[90%] h-[80%] relative z-[5] drop-shadow-2xl"
         />
 
         <motion.div

@@ -3,6 +3,7 @@ import weather from "./weather.png";
 import logo from "./logo.svg";
 import quotes from "./quotes.svg";
 import headerImg from "./headerImg.png";
+import headerImage from "./headerImage.png";
 import send from "./Send.svg";
 import shield from "./Shield.svg";
 import star from "./Star.svg";
@@ -43,6 +44,7 @@ export {
   mail,
   BgRemoverImg,
   weather,
+  headerImage,
   logo,
   quotes,
   headerImg,
