@@ -47,7 +47,7 @@ const Gemini = () => (
         Google's Gemini, integrating multimodal learning, advanced NLP, and
         human-like interaction capabilities for various applications.
       </motion.p>
-      <motion.a
+      {/* <motion.a
         href="https://gemini-clone-hazel-delta.vercel.app/"
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
@@ -59,7 +59,7 @@ const Gemini = () => (
         >
           Live Demo
         </button>
-      </motion.a>
+      </motion.a> */}
     </div>
   </section>
 );
