@@ -23,7 +23,7 @@ const CardDeal = () => (
         It features a responsive UI displaying current conditions, forecasts,
         and temperatures with intuitive search and location functionality.
       </motion.p>
-      <motion.a
+      {/* <motion.a
         href="https://weather-app-black-one-48.vercel.app/"
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
@@ -35,7 +35,7 @@ const CardDeal = () => (
         >
           Live Demo
         </button>
-      </motion.a>
+      </motion.a> */}
     </div>
 
     <div className={layout.sectionImg}>

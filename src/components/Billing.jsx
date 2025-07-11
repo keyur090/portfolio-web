@@ -47,7 +47,7 @@ const Billing = () => (
         easily remove backgrounds, set new backgrounds, blur images, and apply
         various enhancements—all in a seamless.
       </motion.p>
-      <motion.a
+      {/* <motion.a
         href="https://bg-remover-dashboard.vercel.app/"
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
@@ -59,7 +59,7 @@ const Billing = () => (
         >
           Live Demo
         </button>
-      </motion.a>
+      </motion.a> */}
     </div>
   </section>
 );
